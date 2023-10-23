@@ -47,7 +47,9 @@ fun Conversation(messages: List<Message>){
 @Composable
 fun PreviewConversation(){
     ComposeTutorialTheme {
-        Conversation(SampleData.conversationSample)
+        //Conversation(SampleData.conversationSample)
+        //Esta parte del codigo no funcion y no se exactamente porque,
+    // he buscado informacion en google al respecto pero no he encontrado nada
     }
 }
 @Preview(name = "Ligth Mode")
